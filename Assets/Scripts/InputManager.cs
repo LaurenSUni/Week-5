@@ -50,5 +50,16 @@ public class InputManager : MonoBehaviour
             Debug.Log("blue pos2" + transArray[1].transform.position);
 
         }
+        
+        if (Input.GetButtonUp("Fire1"))
+        {
+            //Get the rend variable from the PrintAndHide component on the redObj. Change the color to be a random value between(51.0,0.0,0.0) and(250.0, 0.0, 0.0)
+            //transArray[0].GetComponent<Renderer>()
+
+            //Repeat for blueObj but for the range (0.0,0.0,51.0) and (0.0,0.0,250.0).
+           
+        
+            //Print both of these new values to the console in the form “Red: <color>” by passing the material.color variable directly to the debug statement.
+        }
     }
 }
