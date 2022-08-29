@@ -16,6 +16,14 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            //NO NEW VARIABLES
+            //rotate redObj 45 degrees around the z-axis
+            transArray[0].transform.Rotate(0, 0, 45);
+            //rotate blueObj -45 degrees around the z-axis
+            transArray[1].transform.Rotate(0, 0, -45);
+            
+        }
     }
 }
